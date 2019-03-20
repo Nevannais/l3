@@ -15,6 +15,13 @@ namespace lab3
             Console.Write("Enter B: ");
             int b = int.Parse(Console.ReadLine());
 
+            ConsoleKeyInfo key = Console.ReadKey();
+
+            char ch = key.KeyChar;
+
+            if (ch == '*')
+                Console.WriteLine("{0}", a * b);
+
             Console.ReadKey();
         }
     }
