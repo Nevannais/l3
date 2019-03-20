@@ -19,8 +19,8 @@ namespace lab3
 
             char ch = key.KeyChar;
 
-            if (ch == '+')
-                Console.WriteLine("{0}", a + b);
+            if (ch == '-')
+                Console.WriteLine("{0}", a - b);
 
             Console.ReadKey();
         }
