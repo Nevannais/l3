@@ -17,6 +17,7 @@ namespace lab3
 
             ConsoleKeyInfo key = Console.ReadKey();
 
+
             char ch = key.KeyChar;
 
             if (ch == '-')
